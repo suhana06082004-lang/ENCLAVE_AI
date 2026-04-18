@@ -63,7 +63,7 @@ enclave-ai/
 └── scripts/
 
 ⚙️ Installation
-git clone https://github.com/your-username/enclave-ai.git
+git clone https://github.com/suhana06082004-lang/Enclave-AI.git
 cd enclave-ai
 pip install -r requirements.txt
 cd frontend
