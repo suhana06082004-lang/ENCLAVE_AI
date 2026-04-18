@@ -15,6 +15,7 @@ But data in use (during processing) remains vulnerable to:
 Cloud provider access
 Insider threats
 Data breaches
+
 💡 Solution
 
 Enclave AI executes AI models inside secure enclaves (TEEs):
@@ -22,6 +23,8 @@ Enclave AI executes AI models inside secure enclaves (TEEs):
 Data remains encrypted during computation
 No access for cloud providers or third parties
 Enables zero-knowledge AI inference
+
+
 🔐 Features
 Trusted Execution Environments (TEE simulation)
 Secure AI model inference
@@ -29,21 +32,27 @@ Data encryption & isolation
 Zero-knowledge processing
 API-based architecture
 Simple dashboard UI
+
+
 🧠 How It Works
 Input data is encrypted
 Data enters a secure enclave
 AI model processes data securely
 Only output is returned
+
 🏥 Use Cases
 Healthcare → Secure patient data analysis
 Finance → Fraud detection on sensitive data
 Enterprise AI → Confidential model execution
+
 🛠️ Tech Stack
 Backend: Python (Flask)
 Frontend: React.js
+
 Security: Enclave simulation + encryption
 AI: Dummy/ML model support
 Deployment: Docker / Cloud
+
 📁 Project Structure
 enclave-ai/
 ├── backend/
@@ -52,6 +61,7 @@ enclave-ai/
 ├── api/
 ├── docs/
 └── scripts/
+
 ⚙️ Installation
 git clone https://github.com/your-username/enclave-ai.git
 cd enclave-ai
@@ -74,16 +84,22 @@ Response
 {
   "result": "secure output"
 }
+
+
 🔒 Security Principles
 Confidential Computing
 Zero Trust Architecture
 Data Encryption
 Privacy by Design
+
+
 📈 Future Improvements
 Real TEE integration (Intel SGX / AWS Nitro)
 Federated Learning
 Role-based access control
 Live monitoring dashboard
+
+
 🤝 Contributing
 
 Contributions are welcome!
